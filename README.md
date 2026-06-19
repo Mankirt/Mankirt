@@ -4,8 +4,6 @@
 
 I spend my days building test automation infrastructure at Fortinet for an enterprise security platform used by 30,000+ organizations. I spend my nights shipping production-grade applications to break into full stack development — not tutorial projects, but things I'd actually want to use.
 
-The latest one? I got tired of manually tailoring my resume for every job application. So I built an AI that does it for me. Then used it to apply for jobs. Then kept building.
-
 ---
 
 ## 🚀 What I'm Building
