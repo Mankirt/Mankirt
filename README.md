@@ -10,6 +10,10 @@ The latest one? I got tired of manually tailoring my resume for every job applic
 
 ## 🚀 What I'm Building
 
+**[AI Research Assistant](https://github.com/mankirat2601/ai-research-assistant)** — Multi-Agent Research Pipeline on AWS *(in progress)*
+> Distributed multi-agent system built from scratch without LangChain — researcher, fact-checker, writer, and critic agents orchestrated via AWS Step Functions. Live serverless API on Lambda + API Gateway, powered by Claude on Amazon Bedrock with real-time web search via Tavily.
+> `AWS Lambda` `Step Functions` `API Gateway` `Amazon Bedrock` `Python` `Tavily API`
+
 **[SmartApply](https://github.com/mankirat2601/smartapply)** — AI Resume Fit Analyzer
 > RAG pipeline with pgvector + Claude API. Upload resume, paste JD, get fit score, gap analysis, and tailored bullet suggestions. Accept, Edit, or Ignore each one. Export as PDF.
 > `FastAPI` `React` `PostgreSQL` `pgvector` `Claude API` `Docker`
@@ -32,7 +36,7 @@ The latest one? I got tired of manually tailoring my resume for every job applic
 
 **Languages:** JavaScript/TypeScript, Python, Java
 
-**Tools & Infrastructure:** Git, Playwright, AWS, Docker, Claude API
+**Tools & Infrastructure:** Git, Playwright, AWS (Lambda, API Gateway, Bedrock, IAM, CloudWatch), Docker, Claude API
 
 ---
 
