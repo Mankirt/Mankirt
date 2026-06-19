@@ -10,19 +10,19 @@ The latest one? I got tired of manually tailoring my resume for every job applic
 
 ## 🚀 What I'm Building
 
-**[AI Research Assistant](https://github.com/mankirat2601/ai-research-assistant)** — Multi-Agent Research Pipeline on AWS *(in progress)*
+**[AI Research Assistant](https://github.com/Mankirt/ai-research-assistant)** — Multi-Agent Research Pipeline on AWS *(in progress)*
 > Distributed multi-agent system built from scratch without LangChain — researcher, fact-checker, writer, and critic agents orchestrated via AWS Step Functions. Live serverless API on Lambda + API Gateway, powered by Claude on Amazon Bedrock with real-time web search via Tavily.
 > `AWS Lambda` `Step Functions` `API Gateway` `Amazon Bedrock` `Python` `Tavily API`
 
-**[SmartApply](https://github.com/mankirat2601/smartapply)** — AI Resume Fit Analyzer
+**[SmartApply](https://github.com/Mankirt/smartapply)** — AI Resume Fit Analyzer
 > RAG pipeline with pgvector + Claude API. Upload resume, paste JD, get fit score, gap analysis, and tailored bullet suggestions. Accept, Edit, or Ignore each one. Export as PDF.
 > `FastAPI` `React` `PostgreSQL` `pgvector` `Claude API` `Docker`
 
-**[HireBoard](https://github.com/mankirat2601/hireboard)** — Full Stack Job Board Platform
+**[HireBoard](https://github.com/Mankirt/hireboard)** — Full Stack Job Board Platform
 > Employer and seeker dashboards with real-time notifications, Elasticsearch fuzzy search, Stripe subscriptions, and JWT auth with refresh token rotation and reuse detection.
 > `Next.js` `Node.js` `PostgreSQL` `Redis` `Elasticsearch` `Kafka` `Socket.io` `Stripe` `Docker`
 
-**[Miny](https://github.com/mankirat2601/miny-url-shortener)** — Scalable URL Shortener
+**[Miny](https://github.com/Mankirt/miny-url-shortener-redis/tree/main/miny-url-shortener)** — Scalable URL Shortener
 > Redis cache delivering ~0.1ms redirects. Async Kafka analytics pipeline. 56 billion+ possible URLs via Base62 encoding. Deliberately over-engineered to understand distributed systems.
 > `React` `Node.js` `PostgreSQL` `Redis` `Kafka` `Docker`
 
