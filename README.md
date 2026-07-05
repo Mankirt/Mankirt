@@ -1,67 +1,77 @@
-# Hey there! 👋 I'm Mankirat Singh
+# Mankirat Singh
 
-**Automation engineer by day. Full stack developer by night.**
+Full stack software engineer with a focus on backend systems, cloud infrastructure, and AI-powered applications. I build production-grade software: distributed pipelines, real-time platforms, and developer tools, with an emphasis on architectural clarity and engineering discipline.
 
-I spend my days building test automation infrastructure at Fortinet for an enterprise security platform used by 30,000+ organizations. I spend my nights shipping production-grade applications to break into full stack development — not tutorial projects, but things I'd actually want to use.
+Most of what I build starts with a real problem: I got tired of tailoring my resume for every job application, so I built an AI that does it. I wanted to understand multi-agent AI systems deeply, so I built one from scratch on AWS without touching LangChain. That's the pattern.
 
 ---
 
-## 🚀 What I'm Building
+## Projects
 
-**[AI Research Assistant](https://github.com/Mankirt/ai-research-assistant)** — Multi-Agent Research Pipeline on AWS *(in progress)*
-> Distributed multi-agent system built from scratch without LangChain — researcher, fact-checker, writer, and critic agents orchestrated via AWS Step Functions. Live serverless API on Lambda + API Gateway, powered by Claude on Amazon Bedrock with real-time web search via Tavily.
-> `AWS Lambda` `Step Functions` `API Gateway` `Amazon Bedrock` `Python` `Tavily API`
+**[The Research Desk](https://github.com/Mankirt/ai-research-assistant)** — Distributed Multi-Agent Research Pipeline
+
+Four specialized AI agents (researcher, fact-checker, writer, critic) orchestrated via AWS Step Functions. Built without LangChain or agent frameworks, so every layer of tool calling, state passing, and fault tolerance is explicit and understandable. Cache-aside pattern with DynamoDB cuts repeat query latency from ~35s to ~2s.
+
+Live at [d3q01wfwtbi754.cloudfront.net](https://d3q01wfwtbi754.cloudfront.net)
+
+`AWS Lambda` `Step Functions` `API Gateway` `Bedrock` `DynamoDB` `S3` `CloudFront` `Python` `React`
+
 
 **[SmartApply](https://github.com/Mankirt/smartapply)** — AI Resume Fit Analyzer
-> RAG pipeline with pgvector + Claude API. Upload resume, paste JD, get fit score, gap analysis, and tailored bullet suggestions. Accept, Edit, or Ignore each one. Export as PDF.
-> `FastAPI` `React` `PostgreSQL` `pgvector` `Claude API` `Docker`
+
+RAG pipeline that scores resume-to-job-description fit, identifies gaps, and generates tailored bullet suggestions. Per-suggestion Accept/Edit/Ignore workflow with PDF export. Built on pgvector for semantic search and Claude API for reasoning.
+
+`FastAPI` `React` `PostgreSQL` `pgvector` `Claude API` `Docker`
+
 
 **[HireBoard](https://github.com/Mankirt/hireboard)** — Full Stack Job Board Platform
-> Employer and seeker dashboards with real-time notifications, Elasticsearch fuzzy search, Stripe subscriptions, and JWT auth with refresh token rotation and reuse detection.
-> `Next.js` `Node.js` `PostgreSQL` `Redis` `Elasticsearch` `Kafka` `Socket.io` `Stripe` `Docker`
+
+Employer and candidate dashboards with real-time notifications, Elasticsearch fuzzy search, Stripe billing, and JWT auth with refresh token rotation and reuse detection.
+
+`Next.js` `Node.js` `PostgreSQL` `Redis` `Elasticsearch` `Kafka` `Socket.io` `Stripe` `Docker`
+
 
 **[Miny](https://github.com/Mankirt/miny-url-shortener-redis/tree/main/miny-url-shortener)** — Scalable URL Shortener
-> Redis cache delivering ~0.1ms redirects. Async Kafka analytics pipeline. 56 billion+ possible URLs via Base62 encoding. Deliberately over-engineered to understand distributed systems.
-> `React` `Node.js` `PostgreSQL` `Redis` `Kafka` `Docker`
+
+Redis cache delivering ~0.1ms redirects. Async Kafka analytics pipeline. 56 billion+ possible short URLs via Base62 encoding.
+
+`React` `Node.js` `PostgreSQL` `Redis` `Kafka` `Docker`
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-**Frontend:** React, Next.js, Vite, HTML5, CSS3, Tailwind CSS, Socket.io
+**Languages:** Python, JavaScript/TypeScript, Java
 
-**Backend & Data:** Node.js, FastAPI, REST APIs, Kafka, PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, pgvector
+**Frontend:** React, Next.js, Vite, Tailwind CSS, Socket.io
 
-**Languages:** JavaScript/TypeScript, Python, Java
+**Backend:** Node.js, FastAPI, Kafka, PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, pgvector
 
-**Tools & Infrastructure:** Git, Playwright, AWS (Lambda, API Gateway, Bedrock, IAM, CloudWatch), Docker, Claude API
+**Cloud:** AWS (Lambda, Step Functions, API Gateway, Bedrock, DynamoDB, S3, CloudFront, IAM, CloudWatch), Docker
 
----
-
-## 📊 Stats
-
-
-🧠 **LeetCode:** 360+ problems solved — [mankirat26](https://leetcode.com/u/mankirat26/)
+**Other:** Claude API, Tavily API, Playwright, Blue Prism RPA
 
 ---
 
-## 💼 Experience
+## Experience
 
 **Fortinet** — Intermediate Software Release Automation Specialist *(Jul 2023 – Present)*
-Promoted in 2.5 years · Python · Playwright · FortiClient EMS · 30,000+ organizations
+Python · Playwright · FortiClient EMS · Enterprise security platform serving 30,000+ organizations · Promoted within 2.5 years
 
 **Natural Resources Canada** — Software Developer Co-op *(May 2022 – Dec 2022)*
 Python · Deep Learning · REST APIs · Earthquake monitoring system
 
-**University of British Columbia** — Master of Engineering, ECE *(2021 – 2023)*
-90.7% · International Graduate Entrance Scholarship
+**Tata Consultancy Services** — Systems Engineer *(Sep 2020 – Aug 2021)*
+Blue Prism · RPA · Financial Workflow Automation · 2× On the Spot Award · Employee of the Month Award
 
 ---
 
-## 📫 Connect
+## LeetCode
 
-📧 mankirat2601@gmail.com | 🔗 [LinkedIn](https://linkedin.com/in/mankirat2601) | 🧠 [LeetCode](https://leetcode.com/u/mankirat26/)
+370+ problems solved — [mankirat26](https://leetcode.com/u/mankirat26/)
 
 ---
 
-*Automation engineer by day. Full stack developer by night. Building things that work.*
+## Contact
+
+[mankirat2601@gmail.com](mailto:mankirat2601@gmail.com) · [LinkedIn](https://linkedin.com/in/mankirat2601) · [LeetCode](https://leetcode.com/u/mankirat26/)
