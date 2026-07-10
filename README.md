@@ -55,7 +55,7 @@ Redis cache delivering ~0.1ms redirects. Async Kafka analytics pipeline. 56 bill
 
 ## Experience
 
-**Fortinet** — Intermediate Software Release Automation Specialist *(Jul 2023 – Present)*
+**Fortinet** — Intermediate Software Release Automation Engineer *(Jul 2023 – Present)*
 Python · Playwright · FortiClient EMS · Enterprise security platform serving 30,000+ organizations · Promoted within 2.5 years
 
 **Natural Resources Canada** — Software Developer Co-op *(May 2022 – Dec 2022)*
